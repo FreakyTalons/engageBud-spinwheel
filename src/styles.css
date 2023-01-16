@@ -1,0 +1,116 @@
+.cust-border
+{
+    border-radius : 9.75px 9.75px 0px 0px;
+    border-bottom: solid 2px #186532;
+}
+
+.border-black
+{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+.centre-vert
+{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+*:focus {
+    outline: none;
+}
+
+.btn-green
+{
+    background-color: #146531;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+.abs-center
+{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.width-95
+{
+    width: 95%;
+}
+
+.max-h-500
+{
+    max-height: 450px;
+}
+
+.z-neg
+{
+    z-index: -100;
+}
+
+.color-green
+{
+    color: #146531;
+}
+
+.code-div
+{
+    color: white;
+    background: rgba(20, 20, 20, 0.2);
+    border-radius: 12px 0px 0px 12px;
+}
+
+.copy-div
+{
+    color: white;
+    background: #146531;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.top-neg50
+{
+    top: -50%;
+}
+
+.start-rotate
+{
+    animation: start-rotate 750ms linear infinite;
+}
+
+@keyframes start-rotate
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.stop-rotate
+{
+    animation-play-state: paused;
+}
+
+.scale-animation0
+{
+    animation: scale-animation0 1s linear infinite;
+}
+
+@keyframes scale-animation0
+{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}
+
+.scale-animation1
+{
+    animation: scale-animation1 1s linear infinite;
+}
+
+@keyframes scale-animation1
+{
+    0%{transform: scale(1) rotate(270deg);}
+    50%{transform: scale(1.5) rotate(270deg);}
+    100%{transform: scale(1) rotate(270deg);}
+}
