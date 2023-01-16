@@ -12,7 +12,7 @@ export default function WheelPage ({setPage,setVal}){
 
     //assigning the attained Coupon value 
     let rotations = rotTime/750;
-    let degVal = (rotations - Math.floor(rotations))*360;
+    let degVal = Math.floor((rotations - Math.floor(rotations))*360);
     if((degVal>0 && degVal<=30) || (degVal>330 && degVal<=360))
         setVal("30% Sitewide Off")
     if((degVal>30 && degVal<=90))
