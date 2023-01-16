@@ -35,7 +35,8 @@ export default function BgConfig (){
 
     return(
       <>
-         <div className={dispSpinWheel?"hidden":"flex flex-col w-full items-center"}>
+         <div className={dispSpinWheel?"hidden":" bg-[#93C3AC] flex flex-col w-full h-screen items-center"}>
+            <h1 className='text-4xl text-center font-bold my-8'>Home Screen</h1>
             <button onClick={toggleView} style={{width:"350px"}} className='desktop:text-3xl font-bold desktop:py-5 btn-green text-2xl py-3 my-5'>Show Spin-Wheel</button>
          </div>
 
