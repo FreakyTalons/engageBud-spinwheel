@@ -1,4 +1,4 @@
-# engageBud-spinwheel
+# engageBud-spinwheel ☸️
 A highly responsive Spin the Wheel interface that verifies the validity of the user's details and allows them to spin a wheel to land a random discount offer and redeem it by copying the code to clipboard.
 
 ## Vercel Deployment
